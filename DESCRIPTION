@@ -2,7 +2,7 @@ Package: MATH4753zinn0006
 Title: MATH 4753
 Version: 0.0.0.9000
 Authors@R: 
-    person("Noah", "Zinn", , "noahwzinn@gmail.com", role = c("aut", "cre"))
+    person("Noah", "Zinn", email = "noahwzinn@gmail.com", role = c("aut", "cre"))
 Description: Contains functions and datasets for MATH 4753.
 License: MIT + file LICENSE
 Encoding: UTF-8

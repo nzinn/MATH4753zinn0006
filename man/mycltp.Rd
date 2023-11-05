@@ -12,6 +12,8 @@ mycltp(n, iter = 10000, lambda = 4, ...)
 \item{iter}{number of iterations}
 
 \item{lambda}{lambda of the poisson}
+
+\item{...}{additional arguments to be given to the histogram}
 }
 \description{
 \code{mycltp} plots the sample mean of the poisson distribution

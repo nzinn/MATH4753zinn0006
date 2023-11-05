@@ -11,7 +11,7 @@ ntickets(N, gamma, p)
 
 \item{gamma}{the probability of an overbooking}
 
-\item{n}{the probability of a "no-show"}
+\item{p}{the probability of a "no-show"}
 }
 \value{
 A list containing nd and nc, the discrete and continuous number of tickets that should be sold, respectively, and N, gamma, and p.
@@ -21,7 +21,4 @@ A list containing nd and nc, the discrete and continuous number of tickets that 
 }
 \details{
 This function takes the number of total seats, the desired probability of a booking, and the pobability of a "no-show", and provides a discrete and coninuous number of tickets that should be sold to avoid overbooking. It plots the objective function vs n as well, both continuous and discrete.
-}
-\examples{
-ntickets(N = 200, gamma = 0.02, p = 0.95)
 }
